@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>متجر FitPower - الصفحة الرئيسية</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.1/aos.css">
+</head>
+<body>
+
+    <!-- شريط التنقل -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="images/logo.png" alt="شعار المتجر">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">الرئيسية</a></li>
+                    <li><a href="about.html">من نحن</a></li>
+                    <li><a href="products.html">المنتجات</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- القسم الرئيسي -->
+    <section class="hero-section" data-aos="fade-up">
+        <div class="overlay"></div>
+        <div class="hero-content">
+            <h2>اكتسب القوة. حقق أهدافك.</h2>
+            <p>أفضل المكملات الغذائية التي تساعدك على بناء جسم أحلامك.</p>
+            <a href="products.html" class="btn btn-primary">تسوق الآن</a>
+        </div>
+    </section>
+
+    <!-- الفوتر -->
+    <footer>
+        <div class="container">
+            <p>جميع الحقوق محفوظة &copy; 2024 - FitPower</p>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.1/aos.js"></script>
+    <script>
+        AOS.init();
+        window.addEventListener('load', function() {
+            document.body.classList.add('loaded');
+        });
+    </script>
+    <script src="scripts.js"></script>
+</body>
+</html>

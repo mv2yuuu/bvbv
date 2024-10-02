@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>متجر FitPower - المنتجات</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.1/aos.css">
+</head>
+<body>
+
+    <!-- شريط التنقل -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="images/logo.png" alt="شعار المتجر">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">الرئيسية</a></li>
+                    <li><a href="about.html">من نحن</a></li>
+                    <li><a href="products.html">المنتجات</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- قسم المنتجات -->
+    <section class="products-section" data-aos="fade-up">
+        <div class="container">
+            <h2>منتجاتنا</h2>
+            <div class="product-grid">
+                <div class="product" data-aos="zoom-in">
+                    <img src="images/whey.jpg" alt="بروتين مصل اللبن">
+                    <h3>بروتين مصل اللبن</h3>
+                    <p>بروتين عالي الجودة لزيادة الكتلة العضلية.</p>
+                    <span class="price">150 ريال</span>
+                    <a href="https://www.amazon.com/dp/B01N9W9J05" target="_blank" class="btn btn-primary">اشتري الآن</a>
+                </div>
+                <div class="product" data-aos="zoom-in">
+                    <img src="images/creatine.jpg" alt="كرياتين">
+                    <h3>كرياتين أحادي الهيدرات</h3>
+                    <p>مكمل مثالي لزيادة الأداء والقوة.</p>
+                    <span class="price">100 ريال</span>
+                    <a href="https://www.amazon.com/dp/B002S8F27K" target="_blank" class="btn btn-primary">اشتري الآن</a>
+                </div>
+                <div class="product" data-aos="zoom-in">
+                    <img src="images/bcaa.jpg" alt="BCAA">
+                    <h3>BCAA</h3>
+                    <p>مكمل لتحسين الأداء وتسريع التعافي.</p>
+                    <span class="price">120 ريال</span>
+                    <a href="https://www.amazon.com/dp/B003A7M7L8" target="_blank" class="btn btn-primary">اشتري الآن</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- الفوتر -->
+    <footer>
+        <div class="container">
+            <p>جميع الحقوق محفوظة &copy; 2024 - FitPower</p>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.1/aos.js"></script>
+    <script>
+        AOS.init();
+        window.addEventListener('load', function() {
+            document.body.classList.add('loaded');
+        });
+    </script>
+    <script src="scripts.js"></script>
+</body>
+</html>
